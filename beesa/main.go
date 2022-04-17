@@ -18,7 +18,7 @@ func shortLink(link string, userID string) string {
 }
 
 // TODO LIST
-// 1. Create HTTP Router using fast http or mux
+// 1. Create HTTP Router using fast http or mux (https://deepsource.io/blog/go-web-frameworks/)
 // 2. Create Dockerfile
 // 3. Install redis on kubernetes or using the existing redis on digital ocean
 // 4. Deploy by using jenkins to Kubernetes (using secret)

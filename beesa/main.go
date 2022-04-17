@@ -17,14 +17,14 @@ func shortLink(link string, userID string) string {
 	return result
 }
 
+// TODO LIST
+// 1. Create HTTP Router using fast http or mux
+// 2. Create Dockerfile to build
+// 3. Install redis on kubernetes or using the existing redis on digital ocean
+// 4. Deploy and test to Kubernetes (using secret)
+// 5.
+
 func main() {
-	// Redis healthcheck
-	// redis.Ping()
-	// rSetPipe()
-	// rGet()
-	// values := rGetAllKeys()
-	// fmt.Print(values)
-	// link := "https://tutorialedge.net/golang/go-redis-tutorial/a"
 	link := ""
 	id := ""
 	fmt.Println("Please paste your link to be shorten below:")
